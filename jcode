@@ -1,0 +1,22 @@
+import java.util.Scanner;
+ 
+public class java {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+       System.out.print("vkarai visochinata: ");
+        double visochina = Integer.parseInt(scanner.nextLine());
+      System.out.print("vkarai radiusa: ");
+        double radius = Integer.parseInt(scanner.nextLine());
+ 
+        if (radius <= 0 || visochina <= 0) {
+            throw new Error("chislata ne mogat da sa otricatelni!");
+        }
+        double lice = Math.PI*r*r;
+        double obem= Math.PI*r*r*h;
+        System.out.println("lice = " + lice);
+        System.out.println("obem = " + obem);
+ 
+    }
+ 
+}
+ 
