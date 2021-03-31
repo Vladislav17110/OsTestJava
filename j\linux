@@ -1,0 +1,4 @@
+sudo apt install default-jdk
+gedit pro.java
+javac pro.java
+java program
